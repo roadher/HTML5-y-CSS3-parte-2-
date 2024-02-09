@@ -11,3 +11,5 @@ Estado del proyecto:
 -Lista con Productos
 
 -Lidiando con bordes
+
+-Capturando eventos con CSS
