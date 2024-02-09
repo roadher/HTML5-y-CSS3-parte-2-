@@ -53,9 +53,21 @@ nav a:hover{/*Propiedad hover: Capturo el movimiento del mouse*/
 
 }
 
+.productos li:hover{ /*Resalto cuando pasa el mouse*/
+    border-color: #c78c19; /*Se resalta en color naranja*/
+}
+
+.productos li:active{/*Captura el click del mouse. Cambia de color ha verde cuando se hace click*/
+    border-color: #088c19;
+}
+
 .productos h2{
     font-size: 20px; /*Cambiar el tamaño de la letra*/
     font-weight: bold; /*El tipo de letra*/
+}
+
+.productos li:hover h2{ /*Creo otro hover con mas prioridad*/
+    font-size: 33px;
 }
 
 .producto-descripcion{
