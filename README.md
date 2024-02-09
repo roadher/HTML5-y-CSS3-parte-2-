@@ -3,5 +3,9 @@
 Estado del proyecto:
 
 -Creando una nueva página
+
 -Navegación entre páginas
+
 -Posicionamiento de los elementos
+
+-Lista con Productos
