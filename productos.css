@@ -79,3 +79,9 @@ nav a:hover{/*Propiedad hover: Capturo el movimiento del mouse*/
     font-weight: bold;
     margin-top: 10px; /*Cambio de tamaño solo margen superior*/
 }
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
