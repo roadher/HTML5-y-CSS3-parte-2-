@@ -39,6 +39,10 @@ nav a{
     text-align: center;
     width: 30%;
     vertical-align: top;
+    /*background: #CCCCCC; /*Cambio el color de fondo del producto*//*background: #CCCCCC solo se utiliza referencia cuando se esta diseñando*/
+    margin: 0 1.5%; /*Margen verticales: 0 y laterales: 1.5%*/
+    padding: 30px 20px; /*Crear espacio verticales: 0 y laterales: 20px*/
+    box-sizing: border-box; /*Ajustar espacio para el tamaño de la caja.*/
 
 }
 
