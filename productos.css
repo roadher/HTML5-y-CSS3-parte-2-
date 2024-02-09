@@ -44,9 +44,7 @@ nav a{
     padding: 30px 20px; /*Crear espacio verticales: 0 y laterales: 20px*/
     box-sizing: border-box; /*Ajustar espacio para el tamaño de la caja.*/
     border: 2px solid #000000;/*Resumiendo caracteristicas. Parametros: ancho del borde, estilo de borde, color de borde*/
-    border-color: #000000; /*Color de borde*/
-    border-width: 2px;/*Ancho del borde*/
-    border-style: solid;/*Estilo del borde*/
+    border-radius: 10px 25px 40px 50px; /*Modifico cada uno de las esquinas, empezando con esquina superior izquierda, esquina superior derecha, esquina inferior derecha, esquina inferior izquierda*/
 
 }
 

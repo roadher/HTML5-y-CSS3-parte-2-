@@ -9,3 +9,5 @@ Estado del proyecto:
 -Posicionamiento de los elementos
 
 -Lista con Productos
+
+-Lidiando con bordes
