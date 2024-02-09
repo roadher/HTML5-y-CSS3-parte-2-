@@ -80,8 +80,14 @@ nav a:hover{/*Propiedad hover: Capturo el movimiento del mouse*/
     margin-top: 10px; /*Cambio de tamaño solo margen superior*/
 }
 
-footer{
+footer{ /*Modifica caracterisca del pie de pagina*/
     text-align: center;
-    background: url(imagenes/bg.jpg);
+    background: url(imagenes/bg.jpg);/*el background hace que Llene todo el pie de pagina con la imagen bg*/
     padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
 }
