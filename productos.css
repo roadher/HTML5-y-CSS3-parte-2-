@@ -17,7 +17,7 @@ nav{
 }
 nav li{
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 15px; /*//Espacio alredor de las palabras. Arriba = 0, derecha=0, abajo=0,izquierda=25px*/
 }
 
 nav a{
@@ -25,5 +25,34 @@ nav a{
     color: #000000;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: none;/*Quitar decoracion por defecto. Quito el subrayado*/
+}
+
+.productos{
+    width: 940px; /*Tamaño de la caja. */
+    margin: 0 auto; /*Que se regule actumaticamente el espacio de la caja de 950px. El cero es espacio de arriba los demas espacios estan auto*/
+    padding: 50px; /*Espacio entre header y main*/
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+
+}
+
+.productos h2{
+    font-size: 20px; /*Cambiar el tamaño de la letra*/
+    font-weight: bold; /*El tipo de letra*/
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px; /*Cambio de tamaño solo margen superior*/
 }
