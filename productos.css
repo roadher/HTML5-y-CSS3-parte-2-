@@ -28,6 +28,11 @@ nav a{
     text-decoration: none;/*Quitar decoracion por defecto. Quito el subrayado*/
 }
 
+nav a:hover{/*Propiedad hover: Capturo el movimiento del mouse*/
+    color: #c78c19; /*Cambio de color a naranja cuando pasa por la etiqueta nav a*/
+    text-decoration: underline;/*Subrayo el texto*/
+}
+
 .productos{
     width: 940px; /*Tamaño de la caja. */
     margin: 0 auto; /*Que se regule actumaticamente el espacio de la caja de 950px. El cero es espacio de arriba los demas espacios estan auto*/
@@ -44,7 +49,7 @@ nav a{
     padding: 30px 20px; /*Crear espacio verticales: 0 y laterales: 20px*/
     box-sizing: border-box; /*Ajustar espacio para el tamaño de la caja.*/
     border: 2px solid #000000;/*Resumiendo caracteristicas. Parametros: ancho del borde, estilo de borde, color de borde*/
-    border-radius: 10px 25px 40px 50px; /*Modifico cada uno de las esquinas, empezando con esquina superior izquierda, esquina superior derecha, esquina inferior derecha, esquina inferior izquierda*/
+    border-radius: 10px; /*Modifico los cuatro esquinas directamente*/
 
 }
 
